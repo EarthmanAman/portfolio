@@ -201,13 +201,16 @@ nav {
 .skills {
 	padding-top: 30px;
 	padding-bottom: 50px;
+	margin-left: -10vw;
+	margin-right: -10vw;
 
-	background-image: linear-gradient(45deg, #afb3b6 8.33%, #fcfbfb 8.33%, #fcfbfb 50%, #afb3b6 50%, #afb3b6 58.33%, #fcfbfb 58.33%, #fcfbfb 100%);
-	background-size: 509.12px 509.12px;
-	background-attachment: fixed;
+	
 }
 
-
+.custom-container {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
 .first-row {
 	display: flex;
 }
@@ -368,7 +371,7 @@ nav {
 
 .experience {
 	position: relative;
-	margin-top: 15%;
+	margin-top: 10%;
 	display: flex;
 }
 
@@ -393,7 +396,7 @@ nav {
 	padding: 30px 20px;
 	height: 120px;
 	width: 280px;
-	background: #AFB3B6;
+	background: #f8f8f8;
 	border-radius: 10px;
 }
 
@@ -443,4 +446,60 @@ nav {
 .project .bottom p{
 	font-size: 13px;
 	color: #AFB3B6;
+}
+
+
+.testimonials {
+	display: flex;
+	padding: 50px;
+	background: #f8f8f8;
+	border-radius: 15px;
+}
+
+.testimonials .content {
+	flex: 1;
+	padding: 20px;
+	padding-right: 30px;
+	position: relative;
+}
+
+
+.testimonials .content span {
+	font-size: 55px;
+	margin-right: 10px;
+	color: #c5d3ea;
+	position: absolute;
+	top: 0px;
+}
+
+.testimonials .content p {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.testimonials .stars {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.testimonials .content i {
+	color: #D7A244;
+	margin-right: 5px;
+}
+
+.testimonials .content h5 {
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.testimonials .image {
+	flex: 1;
+}
+
+.testimonials .image img {
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+	margin-left: 20px;
 }

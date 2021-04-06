@@ -19,6 +19,8 @@ nav {
 	height: 50px
 }
 
+
+
 .left {
 	display: flex;
 	justify-content: center;
@@ -100,17 +102,23 @@ nav {
 .about {
 	display: flex;
 	margin-top: 3%;
+	align-items: center;
 }
 
 .from {
 	flex: 1;
+	justify-content: flex-end;
 }
 
 .from .box {
 	border-radius: 10px;
 	background: #AFB3B6;
-	padding: 10px 30px;
+	padding: 15px 30px;
 	width: 60%;
+}
+
+.from .box span {
+	font-weight: bold;
 }
 
 .quote {
@@ -118,5 +126,321 @@ nav {
 }
 
 .quote .box {
-	width: 80%
+	width: 80%;
+	display: flex;
+	position: relative;
+}
+
+.quote .box p {
+	font-size: 20px;
+	margin-left: 30px;
+
+
+}
+
+.quote .box span {
+	font-size: 55px;
+	margin-right: 10px;
+	color: #c5d3ea;
+	position: absolute;
+	bottom: 60px;
+}
+
+
+.section-margin {
+	margin-top: 30px;
+}
+.about {
+	
+	padding: 30px 40px;
+	display: flex;
+}
+.about .image{
+	flex: 1;
+	width: 400px;
+	height: 350px;
+}
+
+.about .image img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	border-radius: 20px;
+}
+
+.about .image hr {
+	background: #3A4436;
+	height: 4px;
+	width: 200px;
+}
+.about .content {
+	position: relative;
+}
+
+.about .content h3 {
+	position: relative;
+	left: -10%;
+	top: 0px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.about .content p {
+	line-height: 30px;
+	color: #3A4436;
+	letter-spacing: 0.5px;
+	padding-left: 40px;
+}
+
+.about .content {
+	flex: 1;
+}
+
+.skills {
+	padding-top: 30px;
+	padding-bottom: 50px;
+
+	background-image: linear-gradient(45deg, #afb3b6 8.33%, #fcfbfb 8.33%, #fcfbfb 50%, #afb3b6 50%, #afb3b6 58.33%, #fcfbfb 58.33%, #fcfbfb 100%);
+	background-size: 509.12px 509.12px;
+	background-attachment: fixed;
+}
+
+
+.first-row {
+	display: flex;
+}
+
+.first-img {
+	position: relative;
+	flex: 0.65;
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/web.jpg);
+	background-size: auto 100%;
+
+	height: 250px;
+	overflow: hidden;
+	
+	border-radius: 20px;
+
+
+}
+
+.first-row .first-img p {
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+	right: 30%;
+
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.first-row .content {
+	flex: 1.5;
+	padding: 50px;
+	padding-left: 8%;
+}
+
+.first-row .content p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.second-row {
+	position: relative;
+}
+
+.second-row .first-img {
+	position: relative;
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/web.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	margin-top: 5%;
+	
+	border-radius: 20px;
+
+}
+
+
+.second-row .second-img {
+	position: absolute;
+	top: -70%;
+	left: 35%;
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/mobile.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	
+	border-radius: 20px;
+}
+
+
+.second-row  p {
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+	right: 30%;
+
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+.second-row .third-img {
+	position: absolute;
+	top: -70%;
+	left: 68%;
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/mobile.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	
+	border-radius: 20px;
+}
+
+
+.third-row {
+	position: relative;
+}
+
+.third-row .content {
+	position: relative;
+	margin-top: 5%;
+
+}
+
+.third-row  h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #3A4436;
+	padding-left: 50px;
+}
+
+
+.third-row .second-img {
+	position: absolute;
+	top: -500%;
+	left: 35%;
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/mobile.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	
+	border-radius: 20px;
+}
+
+
+
+.third-row  p {
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+	right: 30%;
+
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+.third-row .third-img {
+	position: absolute;
+	top: -500%;
+	left: 68%;
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/mobile.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	
+	border-radius: 20px;
+}
+
+
+.experience {
+	position: relative;
+	margin-top: 15%;
+	display: flex;
+}
+
+.experiences {
+	flex: 1
+}
+
+.experience h3 {
+	color: #3A4436;
+	font-weight: bold;
+}
+
+.experience p {
+	font-size: 15px;
+	color: #3A4436;
+	padding-right: 30px;
+}
+.hours {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+	padding: 30px 20px;
+	height: 120px;
+	width: 280px;
+	background: #AFB3B6;
+	border-radius: 10px;
+}
+
+.hours h4 {
+	font-weight: bold;
+	text-align: center;
+	color: #3A4436;
+}
+.hours p {
+	text-align: right;
+}
+
+
+
+.sample-projects {
+	flex: 1
+}
+
+.project {
+	margin: 10px 15px;
+}
+
+.project .top {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.5px solid #AFB3B6;
+	padding-bottom: 5px;
+}
+
+.project .top h4 {
+	font-size: 15px;
+	
+	color: #3A4436;
+}
+
+.project .top i {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.project .bottom {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+}
+
+.project .bottom p{
+	font-size: 13px;
+	color: #AFB3B6;
 }

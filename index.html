@@ -6,7 +6,13 @@
 	<title>Home</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
 </head>
 <body>
 
@@ -21,20 +27,52 @@
 				</div>
 
 				<div class="right">
-					<a>
-						<i class="fa fa-align-justify humburger"></i>
+					<a class="nav-icon" href="javascript:void(0)">
+						<span></span>
+						<span></span>
+						<span></span>
 					</a>
 				</div>
 			</nav>
 		</header>
+		<div class="full-nav">
+		
 
+			<div class="logo" align="center">
+				<a href="">
+					<h2>HASHIM ATHMAN</h2>
+				</a>
+			</div>
+			<nav class="nav2">
+				<ul>
+					<li><a href=""><span>01.</span>Home</a></li>
+					<li><a href="#about"><span>02.</span>About</a></li>
+					<li><a href="#mission"><span>03.</span>Skills</a></li>
+					<li><a href="#services"><span>04.</span>Experience</a></li>
+					<li><a href="#story"><span>05.</span>Projects</a></li>
+					<li><a href="#testimonial"><span>06.</span>Recommendation</a></li>
+					<li><a href="#contact"><span>07.</span>Contacts</a></li>
+				</ul>
+			</nav>
+
+			<ul class="social-icons list-inline">
+				<li><a target="_blank" href="https://www.facebook.com/NobleandMarble/?ref=bookmarks&_rdc=1&_rdr"><i class="fa fa-facebook"></i></a></li>
+				<li><a href=""><i class="fa fa-twitter"></i></a></li>
+				<li><a target="_blank" href="https://www.instagram.com/lindamakandi/"><i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" href="https://www.youtube.com/channel/UCCYjcL-oD7fL7-AmweE0CnA"><i class="fa fa-youtube"></i></a></li>
+			</ul>
+
+			<div class="corner-circle">
+				<a href="javascript:void(0);" class="nav-close"><span></span><span></span></a>
+			</div>
+		</div>
 		<section class="hero">
 			<div class="welcome-text">
 				<h1>Connect to a Professional Service</h1>
 			</div>
 			
 			<div class="rect">
-				
+				<img src="./images/computer.svg" alt="">
 			</div>
 			
 		</section>
@@ -54,6 +92,9 @@
 			<div class="custom-container">
 				<div class="first-row">
 					<div class="first-img">
+						<div class="perc-green">
+							<h5>90%</h5>
+						</div>
 						<p>Web design</p>
 						
 					</div>
@@ -63,13 +104,22 @@
 				</div>
 				<div class="second-row">
 					<div class="first-img">
-						<p>Web design</p>
+						<div class="perc-orange">
+							<h5>75%</h5>
+						</div>
+						<p>Data Mining</p>
 					</div>
 					<div class="second-img">
-						<p>Web design</p>
+						<div class="perc-green">
+							<h5>80%</h5>
+						</div>
+						<p>Mobile Development</p>
 					</div>
 					<div class="third-img">
-						<p>Web design</p>
+						<div class="perc-orange">
+							<h5>75%</h5>
+						</div>
+						<p>UI/UX Design</p>
 					</div>
 					
 					
@@ -80,10 +130,16 @@
 						<h3>Eager to learn more <span style='font-size:30px;'>&#128515;</span></h3>
 					</div>
 					<div class="second-img">
-						<p>Web design</p>
+						<div class="perc-orange">
+							<h5>70%</h5>
+						</div>
+						<p>Machine Learning</p>
 					</div>
 					<div class="third-img">
-						<p>Web design</p>
+						<div class="perc-green">
+							<h5>80%</h5>
+						</div>
+						<p>API Development</p>
 					</div>
 					
 					
@@ -141,24 +197,29 @@
 			</div>
 		</section>
 		
-		<section class="testimonials">
-			<div class="content">
-				<span>&#8220;</span>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quiepakis </p>
-				<div class="stars">
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
+		
+		<section>
+			<h3 class="client">Recommendation</h3>
+			<div class="testimonials">
+				<div class="content">
+					<span>&#8220;</span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quiepakis </p>
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+					<h5>Ray Salasya</h5>
 				</div>
-				<h5>Ray Salasya</h5>
-			</div>
 
-			<div class="image">
-				<img src="./images/web.jpg" alt="">
+				<div class="image">
+					<img src="./images/web.jpg" alt="">
+				</div>
 			</div>
+			
 		</section>
 
 		<!--
@@ -208,7 +269,8 @@
 		</footer>
 
 	</div>
-	
+
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 	
 	<script type="text/javascript" src="scripts.js"></script>
 </body>

@@ -1,6 +1,7 @@
 *, html, body {
 	margin: 0;
 	padding: 0;
+	
 
 }
 
@@ -19,7 +20,7 @@ body{
 
 .header {
 	width: 100%;
-	height: 580px;
+	height: 700px;
 	overflow-y: hidden;
 }
 
@@ -390,10 +391,9 @@ ul.social-icons.list-inline {
 
 
 .section-margin {
-	margin-top: 30px;
+	margin-top: 70px;
 }
 .about {
-	
 	padding: 30px 40px;
 	display: flex;
 	
@@ -661,6 +661,139 @@ ul.social-icons.list-inline {
 }
 
 
+
+#services-tabs{
+    margin-top: 20px;
+    position: relative;
+    /*background: #f4f4f4;*/
+}
+#services-tabs ul {
+    margin-bottom: 40px;
+}
+
+#services-tabs ul li {
+    padding: 5px 30px;
+}
+
+#services-tabs ul li a {
+     font-family: "Roboto Condensed", sans-serif; ;
+    font-size: 14px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: bold
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* Tab active state */
+
+#services-tabs ul li.r-tabs-state-active a {
+    color: #fb527a;
+    font-weight: 700;
+    border-bottom: 3px solid #fb527a;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+}
+
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 59px 30px;
+    min-height: 481px;
+}
+
+.service-tab h2 {
+    font-size: 48px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.service-tab h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-tab p {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-general {
+    font-family:'Roboto Condensed', sans-serif;
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px 12px 46px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-yellow {
+    color: #fff;
+    border: 1px solid #fb527a;
+    background-color: #fb527a;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
+.btn-white {
+    color: #212226;
+    border: 1px solid #fff;
+    background-color: #fff;
+} 
+  
+
+
+.large {
+	height: 400px;
+	background: aliceblue;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.large .large-content {
+	position: absolute;
+	left: -30px;
+	width: 60%;
+	height: 100%;
+	background: whitesmoke;
+
+	transform: skew(8deg, 0deg);
+}
+
+.small {
+	display: flex;
+	height: 400px;
+	margin-top: 30px;
+	justify-content: space-between;
+}
+
+.small .first {
+	width: 48%;
+	background: whitesmoke;
+}
+
+.small .second {
+	width: 48%;
+	background: aliceblue;
+}
 .experience {
 	position: relative;
 	margin-top: 10%;
@@ -812,6 +945,21 @@ footer {
 
 @media screen and (max-width: 968px) {
 	
+	#services-tabs ul {
+		position: absolute;
+		top: 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.service-tab img {
+		margin-top: 80px;
+	}
+	
+	.r-tabs .r-tabs-accordion-title {
+		display: none;
+	}
+
 	.skills {
 		
 	}

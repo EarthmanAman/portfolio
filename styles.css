@@ -945,6 +945,52 @@ footer {
 
 @media screen and (max-width: 968px) {
 	
+	.full-nav{
+		padding:10px 0px;
+	}
+	.corner-circle {
+		width: 80px;
+		height: 60px;
+		border-radius: 0 0 0 80px;
+	}
+
+	.nav-close {
+		width: 20px;
+		height: 20px;
+		top:15px;
+		right: 35px;
+
+	}
+	
+	.nav2 ul {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		max-width: 350px;
+		
+	}
+
+	.nav2 ul li {
+		display: flex;
+		flex: 0%;
+		width: 50%;
+		background-color: #f5f5f5;
+		padding: 1rem;
+		margin-left: 10px;
+		border-bottom: 10px solid #afd5e6;
+		border-bottom: 10px solid #afd5e6;
+		transition: all 0.5s;
+	}
+
+	
+	.social-icons {
+		position: absolute;
+		bottom: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	#services-tabs ul {
 		position: absolute;
 		top: 0;

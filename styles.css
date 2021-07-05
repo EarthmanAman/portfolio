@@ -981,11 +981,80 @@ footer {
 		align-items: center;
 		justify-content: center;
 	}
+
+	.hero {
+		height: 200px;
+		
+	}
+
+	.welcome-text {
+		position: absolute;
+		left: 10%;
+		bottom: 30%;
+		width: 55%;
+		z-index: 2
+	}
+
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+
+	.rect {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 70%;
+		height: 30%;
+		background: #c5d3ea;
+		border-radius: 10px;
+	}
+
 	
+	.rect img {
+		width: 140px;
+	}
+	
+	.section-margin {
+		margin-top: 40px;
+	}
+	.about {
+		padding: 20px 40px;
+		display: flex;
+		
+	}
+	.about .image{
+		flex: 1;
+		width: 400px;
+		height: 270px;
+	}
+
+	.about .image img {
+		border-radius: 10px;
+	}
+
+	.about .image hr {
+		height: 3px;
+	}
+
+	.about .content h3 {
+		left: 0%;
+	}
+
+	.about .content p {
+		padding-left: 10px;
+	}
+
+	.about .content {
+		flex: 1;
+	}
 
 	.custom-container {
 		margin-left: 8vw;
 		margin-right: 10vw;
+	}
+
+	#services-02 {
+		margin-top: 100px
 	}
 
 	#services-tabs ul {
@@ -993,6 +1062,7 @@ footer {
 		top: 0;
 		display: flex;
 		flex-wrap: wrap;
+		
 	}
 
 	.service-tab img {

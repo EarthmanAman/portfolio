@@ -396,12 +396,16 @@ ul.social-icons.list-inline {
 .about {
 	padding: 30px 40px;
 	display: flex;
-	
+	flex-wrap: wrap;
 }
 .about .image{
 	flex: 1;
 	width: 400px;
 	height: 350px;
+}
+
+.about .image h3{
+	display: none;
 }
 
 .about .image img {
@@ -412,7 +416,7 @@ ul.social-icons.list-inline {
 	border-radius: 20px;
 }
 
-.about .image hr {
+.about hr {
 	background: #3A4436;
 	height: 4px;
 	width: 200px;
@@ -1021,32 +1025,47 @@ footer {
 		padding: 20px 40px;
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: flex-start;
 		
 	}
 	.about .image{
+		width: 50%;
+		height: 100%;
+		display: flex;
+	}
+	
+	.about .about-h3 {
 		flex: 1;
-		width: 400px;
-		height: 270px;
+	}
+	.about .image h3{
+		display: block;
+		position: relative;
+		width: 200px;
+		top: 20%;
+		padding-left: 10px;
+
+		font-size: 20px;
+		font-weight: bold;
 	}
 
 	.about .image img {
+		width: 100%;
+		height: auto;
 		border-radius: 10px;
 	}
 
-	.about .image hr {
-		height: 3px;
-	}
 
 	.about .content h3 {
-		left: 0%;
+		display: none;
 	}
 
 	.about .content p {
-		padding-left: 10px;
+		padding-left: 0px;
 	}
 
 	.about .content {
-		flex: 1;
+		width: 100%;
 	}
 
 	.custom-container {
@@ -1145,6 +1164,58 @@ footer {
 
 	.experience {
 		margin-top: 30%;
+	}
+
+
+
+	.testimonials {
+		flex-direction: column;
+	}
+
+	.testimonials .content {
+		order: 2;
+		padding: 0px;
+		padding-right: 0px;
+	}
+
+
+	.testimonials .content span {
+		top: -10px;
+		left: 0px;
+	}
+
+	.testimonials .content p {
+		margin-top: 30px;
+		margin-left: 0px;
+	}
+
+	.testimonials .stars {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
+
+	.testimonials .content i {
+		color: #D7A244;
+		margin-right: 5px;
+	}
+
+	.testimonials .content h5 {
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.testimonials .image {
+		order: 1;
+		align-items: flex-start;
+		margin-bottom: 20px;
+	}
+
+	.testimonials .image img {
+		width: 80%;
+		height: auto;
+		border-radius: 10px;
+		margin-left: 0px;
 	}
 
 }

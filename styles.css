@@ -1020,6 +1020,7 @@ footer {
 	.about {
 		padding: 20px 40px;
 		display: flex;
+		flex-wrap: wrap;
 		
 	}
 	.about .image{

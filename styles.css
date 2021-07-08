@@ -722,6 +722,9 @@ ul.social-icons.list-inline {
     margin-bottom: 20px;
     font-weight: 100;
 }
+.tab-bg h2 {
+	display: none;
+}
 
 .service-tab h3 {
     font-size: 32px;
@@ -1061,6 +1064,8 @@ footer {
 	}
 
 	.about .content p {
+		font-size: 14px;
+		line-height: 24px;
 		padding-left: 0px;
 	}
 
@@ -1085,8 +1090,22 @@ footer {
 		
 	}
 
+	#services-tabs ul li {
+	    background: #c5d3ea;
+	    margin-right: 5px;
+	    margin-bottom: 5px;
+	    border-radius: 5px;
+	}
+	
+	.service-tab .tab-bg {
+		padding: 30px 30px;
+	}
+	.tab-bg h2 {
+		display: none;
+
+	}
 	.service-tab img {
-		margin-top: 80px;
+		margin-top: 120px;
 	}
 	
 	.r-tabs .r-tabs-accordion-title {
@@ -1098,6 +1117,39 @@ footer {
 		margin-left: 0vw;
 		margin-right: 0vw;
 	}
+
+	.perc-green {
+		width: 40px;
+		height: 60px;
+	}
+
+	.perc-green h5{
+		font-size: 15px;
+		bottom: 10px;
+		left: 8px
+	}
+
+	.perc-orange {
+		width: 40px;
+		height: 60px;
+	}
+	.perc-orange h5{
+		font-size: 15px;
+		bottom: 10px;
+		left: 8px
+	}
+
+
+	.first-row .first-img p {
+		bottom: 8%;
+		left: 40%;
+		right: 40%;
+
+		font-size: 16px;
+
+	}
+
+
 	.first-img {
 		flex: 1.3;
 		height: 150px;
@@ -1113,7 +1165,10 @@ footer {
 	.first-row .content p {
 		font-size: 15px;
 	}
-
+	
+	.first-img p {
+		font-size: 15px;
+	}
 	.second-row .first-img {
 		width: 150px;
 		height: 150px;
@@ -1127,7 +1182,10 @@ footer {
 		width: 150px;
 		height: 150px;
 	}
-
+	
+	.second-img p {
+		font-size: 15px;
+	}
 	.second-row .third-img {
 		position: relative;
 		margin-top: 3%;
@@ -1140,7 +1198,10 @@ footer {
 		font-size: 10px;
 		padding-left: 10px;
 	}
-
+	
+	.third-img p {
+		font-size: 15px;
+	}
 	.third-row .second-img {
 		position: absolute;
 		top: -470%;
@@ -1219,3 +1280,6 @@ footer {
 	}
 
 }
+
+
+

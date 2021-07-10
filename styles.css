@@ -1222,12 +1222,18 @@ footer {
 		
 		border-radius: 20px;
 	}
-
+	
+	.projects {
+		display: none;
+	}
 	.experience {
 		margin-top: 30%;
 	}
 
-
+	
+	.rec {
+		margin-top: 100px;
+	}
 
 	.testimonials {
 		flex-direction: column;

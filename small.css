@@ -6,7 +6,7 @@
 		padding: 0.7rem;
 	}
 	.hero {
-		height: 120px;
+		height: 250px;
 		
 	}
 	.welcome-text {
@@ -18,7 +18,7 @@
 	}
 
 	.welcome-text h1 {
-		font-size: 20px;
+		font-size: 28px;
 	}
 
 	.rect {
@@ -26,14 +26,21 @@
 		bottom: 0;
 		right: 0;
 		width: 70%;
-		height: 40%;
+		height: 35%;
 		background: #c5d3ea;
 		border-radius: 10px;
 	}
 
+	.about {
+		background: whitesmoke
+	}
+	
+	.about .content {
+		padding-top: 0px;
+	}
 	
 	.rect img {
-		width: 120px;
+		width: 160px;
 	}
 
 	.first-img {
